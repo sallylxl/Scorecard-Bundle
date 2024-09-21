@@ -5,9 +5,27 @@ description: An High-level Scorecard Modeling API
 
 remote_theme: sallylxl/jekyll-rtd-theme
 
+edit: true
+
+copyright:
+  revision: true
+
+addons:
+  - github
+  - gems
+  - analytics
+
+addons_commit: true
+
+theme: null
+
+# sort
 readme_index:
   with_frontmatter: true
 
+sass:
+  style: compressed
+  
 exclude:
   - Makefile
   - CNAME
